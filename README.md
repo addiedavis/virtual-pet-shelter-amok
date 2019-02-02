@@ -1,4 +1,4 @@
-### Virtual-Pet-Amok
+# Virtual-Pet-Amok
 
 ## Stuff from Virtual Pet Shelter
 - VirtualPetShelterApp 
@@ -33,17 +33,17 @@
 	- *No default constructor*
 
 ## New stuff for Amok
-# General
+### General
 - Track cages 
 - cleanliness of the cage for organic dogs
 - cleanliness of the litter box for organic cats
 - oil/maintence level for robotic animals
 
-# All clases 
+### All clases 
 - Encapsulate all instance variables
 - assign appropiate visability modifiers to methods used internally by a class or within a class hierarchy
 
-# VirtualPet class and related subclasses/interfaces
+### VirtualPet class and related subclasses/interfaces
 - *This is in addition to the VirtualPetShelter requirements*
 - create a modle that allows for dogs and cats (either can be robotic or organic)
 - introduce an attribute (instance variable) representing overall health that is updated as a result of other attributes moving in a negative or positive direction, influencing happiness
@@ -57,7 +57,7 @@
 	- amount of wate in the litter box
 	- amount of waste in an individual dog cage
 
-# VirtualPetShelter class
+### VirtualPetShelter class
 - *This is in addition to the VirtualPetShelter requirements*
 - introduce methods that allow for:
 	- oiling/maintaining all robotic pets
@@ -65,7 +65,7 @@
 	- emptying the litterbox
 - modify existing methods to only feed/water pets that are not robotic
 
-# VirtualPetShelterApp class
+### VirtualPetShelterApp class
 - *This is in addition to the VirtualPetShelter requirements*
 - add options to:
 	- walk all dogs
