@@ -27,8 +27,8 @@
 	- variables of pets 
 		- name
 		- type
-		- hunger level
-		- thirst level
+		- hunger level (n/a robo)
+		- thirst level (oil level for robo)
 		- happiness level
 	- *No default constructor*
 
