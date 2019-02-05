@@ -5,9 +5,9 @@ public class Pet {
 	protected String name;
 	protected int happyLevel;
 	protected int healthLevel;
+	protected int messLevel;
 
 	public Pet() {
-		super();
 	}
 
 	public String getName() {
@@ -20,6 +20,19 @@ public class Pet {
 
 	public int getHealthLevel() {
 		return healthLevel;
+	}
+	
+	public int getMessLevel() {
+		return messLevel;
+	}
+
+	public void walkDog() {
+		
+		happyLevel += 5;	
+	}
+
+	public void clean() {
+		messLevel -= 5;		
 	}
 
 }

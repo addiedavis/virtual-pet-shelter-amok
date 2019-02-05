@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class OrganicCatTest {
 
-	Organic underTest = new OrganicCat("Felix", 10, 5, 15, 20);
+	Organic underTest = new OrganicCat("Felix", 10, 5, 15, 20, 10);
 	
 	@Test
 	public void shouldHaveName() {
@@ -38,5 +38,24 @@ public class OrganicCatTest {
 		assertThat(foundHealthLevel, is(20));
 	}
 
+	@Test
+	public void shouldHaveMessLevel() {
+		int foundMessLevel = underTest.getMessLevel();
+		assertThat(foundMessLevel, is(10));
+	}
+	
+	@Test
+	public void walkingCatDoesNothing() {
+		underTest.walkDog();
+		int foundHappyLevel = underTest.getHappyLevel();
+		assertThat(foundHappyLevel, is(15));
+	}
+	
+	@Test 
+	public void shouldSetMessTo0AfterCleaning() {
+		underTest.clean();
+		int foundMessLevel = underTest.getMessLevel();
+		assertThat(foundMessLevel, is(0));
+	}
 	
 }
